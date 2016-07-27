@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (3.4.1)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (2.3.0):
+    - CocoaLumberjack/Extensions
+  - SwiftDate (3.0.8)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `swift2.3`)
+  - CocoaLumberjack/Swift
+  - SwiftDate
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :branch: swift2.3
+    :git: https://github.com/Alamofire/Alamofire.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 3e0cf8d49814c0f57279f201a42cc055d996d1d7
+    :git: https://github.com/Alamofire/Alamofire.git
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  SwiftDate: 971f8b9394f664f2226b9c3ab64e801a7291c612
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 78a9758863b6cfb560f035617fdfde3a240fd386
+
+COCOAPODS: 1.1.0.beta.1

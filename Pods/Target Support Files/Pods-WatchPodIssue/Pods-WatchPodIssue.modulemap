@@ -1,0 +1,6 @@
+framework module Pods_WatchPodIssue {
+  umbrella header "Pods-WatchPodIssue-umbrella.h"
+
+  export *
+  module * { export * }
+}
